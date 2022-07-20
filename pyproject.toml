@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "scihub_dl_bot"
+version = "0.1.0"
+description = "Unoffical Telegram Bot for downloading articles using sci-hub.se and DOI number."
+authors = ["Soroush Alinia <soroushalinia.wm@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.28.1"
+beautifulsoup4 = "^4.11.1"
+python-telegram-bot = "^13.13"
+python-dotenv = "^0.20.0"
+
+[tool.poetry.dev-dependencies]
+autopep8 = "^1.6.0"
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
